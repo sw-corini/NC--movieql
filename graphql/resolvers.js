@@ -1,6 +1,11 @@
+const corini = {
+    name: "corini",
+    age: 28,
+    gender: "female"
+};
 const resolvers = {
     Query: {
-        name: () => "corini"
+        person: () => corini
     }
 };
 export default resolvers;

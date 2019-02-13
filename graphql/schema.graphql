@@ -1,4 +1,8 @@
-type Query{
-    name:String!
+type Corini {
+    name: String!
+    age: Int!
+    gender: String!
 }
-
+type Query {
+    person: Corini!
+}
